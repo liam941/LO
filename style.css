@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Indie+Flower&display=swap');
+
+body {
+    background-color: #f8f0e3; /* Light beige, soft and inviting */
+    color: #555; /* A softer black for better readability */
+    font-family: 'Nunito', sans-serif; /* Readable font */
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.7; /* Improved line height for readability */
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #e07a5f; /* A warm, inviting color */
+    font-family: 'Indie Flower', cursive; /* Whimsical font for headings */
+    font-size: 2.5em; /* Slightly smaller for a more gentle feel */
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05); /* Softer shadow */
+}
+
+h2 p {
+    font-size: 1.3em; /* Adjusted font size */
+    margin: 20px auto;
+    width: 80%; /* Good width for readability */
+    padding: 15px 20px;
+}
+
+p {
+    background: #fff; /* White background for clean look */
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05); /* Very subtle shadow */
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.greeting {
+    font-size: 1.4em; /* Slightly larger for a warm welcome */
+    font-style: italic;
+    color: #e07a5f; /* Consistent warm color */
+}
+
+.appreciation {
+    font-weight: 500; /* Semi-bold for emphasis */
+}
+
+.qualities {
+    color: #3d405b; /* A deeper, comforting color */
+}
+
+.gratitude {
+    color: #81b29a; /* A gentle, grateful color */
+}
+
+.closing {
+    font-size: 1.2em;
+    margin-top: 25px;
+}
+
+h1::before, h1::after {
+    content: "💖"; /* Heart emoji */
+    margin: 0 10px;
+    font-size: 1em; /* Slightly smaller hearts */
+    vertical-align: middle;
+}
+
+p:hover {
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.08); /* Gentle hover effect */
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 p {
+        width: 95%;
+        font-size: 1.1em;
+    }
+
+    p {
+        padding: 12px 15px;
+    }
+}
